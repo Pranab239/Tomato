@@ -1,14 +1,5 @@
 import mongoose from "mongoose";
 
 export const connectDB = async () => {
-  try {
-    await mongoose.connect('mongodb+srv://pranab4752:J2kQ4iQm40qkp96L@cluster0.eacvmx7.mongodb.net/TasteOfIndia', {
-      useNewUrlParser: true,
-      useUnifiedTopology: true
-    });
-    console.log('MongoDB connected...');
-  } catch (err) {
-    console.error(err.message);
-    process.exit(1);
-  }
-};
+    await mongoose.connect('mongodb+srv://pranab4752:tg0aLb3E2Us5TA9K@cluster0.nguxuoq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0').then(()=>console.log("DB Connected"));
+}
