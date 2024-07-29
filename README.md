@@ -110,7 +110,7 @@ Tomato is a full-fledged food delivery web application built using the MERN stac
    ```
 
 3. **Access the application:**
-   Open your browser and navigate to `http://localhost:3000`
+   Open your browser and navigate to `http://localhost:4000`
 
 ## API Endpoints
 
